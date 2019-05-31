@@ -139,7 +139,7 @@ packages:
   # SSH
   - openssh-server openssh-clients
   # Containers
-  - podman skopeo runc moby-engine
+  - podman skopeo runc
   - fuse-overlayfs slirp4netns
   # Networking
   - bridge-utils nfs-utils-coreos
