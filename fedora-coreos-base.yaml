@@ -177,3 +177,10 @@ packages:
   # i18n
   - kbd
   - whois-nls
+  # crio
+  - cri-tools
+  - cri-o-1.14.1-2.gitb7644f6.module_f30+4390+c5976187
+  - conmon-1.14.1-2.gitb7644f6.module_f30+4390+c5976187
+  - containernetworking-plugins
+  - oci-systemd-hook
+  - container-selinux
