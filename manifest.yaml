@@ -5,6 +5,7 @@ repos:
   - fedora
   - fedora-updates
   - fedora-coreos-pool
+  - local-repo
 
 add-commit-metadata:
   fedora-coreos.stream: testing-devel
