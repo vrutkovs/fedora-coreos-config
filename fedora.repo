@@ -71,4 +71,4 @@ skip_if_unavailable=False
 [local-repo]
 enabled=1
 gpgcheck=0
-baseurl=http://dell-per640-03.dell2.lab.eng.bos.redhat.com
+baseurl=http://10.88.0.1
