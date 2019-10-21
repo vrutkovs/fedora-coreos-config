@@ -12,7 +12,7 @@ repos:
   - fedora-coreos-pool
   - fedora
   - fedora-updates
-  - crio
+  - openshift-4.3-beta
 
 add-commit-metadata:
   fedora-coreos.stream: okd

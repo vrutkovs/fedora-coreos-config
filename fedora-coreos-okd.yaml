@@ -10,8 +10,10 @@ mutate-os-release: "${releasever}"
 packages:
   - fedora-release-coreos
   - fedora-repos-ostree
-  - cri-o-1.15.1
-  - kubernetes-client-1.15.2
+  - cri-o
+  - cri-tools
+  - openshift-hyperkube
+  - openshift-clients
 
 # XXX: this is used by coreos-assembler for artifact naming...
 rojig:

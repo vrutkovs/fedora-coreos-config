@@ -1,0 +1,7 @@
+[openshift-4.3-beta]
+name=Openshift 4.3 beta
+baseurl=https://mirror.openshift.com/pub/openshift-v4/dependencies/rpms/4.3-beta/
+enabled=1
+repo_gpgcheck=0
+gpgcheck=0
+skip_if_unavailable=True
