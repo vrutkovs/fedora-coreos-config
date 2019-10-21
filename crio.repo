@@ -1,0 +1,7 @@
+[crio]
+name=CRI-O
+baseurl=https://cbs.centos.org/repos/paas7-crio-115-release/x86_64/os
+enabled=1
+repo_gpgcheck=0
+gpgcheck=0
+skip_if_unavailable=True

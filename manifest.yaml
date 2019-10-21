@@ -1,5 +1,5 @@
-ref: fedora/${basearch}/coreos/testing
-include: fedora-coreos.yaml
+ref: fedora/${basearch}/coreos/okd
+include: fedora-coreos-okd.yaml
 
 releasever: "30"
 
@@ -10,6 +10,9 @@ rojig:
 
 repos:
   - fedora-coreos-pool
+  - fedora
+  - fedora-updates
+  - crio
 
 add-commit-metadata:
-  fedora-coreos.stream: testing
+  fedora-coreos.stream: okd
