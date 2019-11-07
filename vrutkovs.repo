@@ -1,0 +1,8 @@
+[vrutkovs]
+name=vrutkovs
+baseurl=https://vrutkovs.github.io/okd-on-fcos-fixes
+enabled=1
+repo_gpgcheck=0
+type=rpm-md
+gpgcheck=0
+skip_if_unavailable=True

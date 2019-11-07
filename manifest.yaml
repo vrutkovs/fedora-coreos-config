@@ -18,6 +18,7 @@ repos:
   - fedora-next-updates
   - fedora-next-modular
   - fedora-next-updates-modular
+  - vrutkovs
 
 add-commit-metadata:
   fedora-coreos.stream: testing-devel
