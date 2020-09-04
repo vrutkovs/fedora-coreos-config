@@ -1,5 +1,5 @@
 ref: fedora/${basearch}/coreos/next-devel
-include: manifests/fedora-coreos.yaml
+include: manifests/fedora-coreos-okd.yaml
 
 releasever: "32"
 

@@ -1,0 +1,18 @@
+include: fedora-coreos.yaml
+
+packages:
+  # GlusterFS required for conformance tests
+  - glusterfs
+  - glusterfs-fuse
+  # open-vm-tools installs VMWare agent
+  - open-vm-tools
+  # policycoreutils required for kubevirt
+  - policycoreutils
+  # OVS is required to be running on host to work with OVN
+  - NetworkManager-ovs
+
+# XXX: this is used by coreos-assembler for artifact naming...
+rojig:
+  license: MIT
+  name: fedora-coreos-okd
+  summary: Fedora CoreOS OKD image
